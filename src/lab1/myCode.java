@@ -1,5 +1,7 @@
 package lab1;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 public class myCode {
     public static void main(String[] args) {
 
@@ -8,6 +10,8 @@ public class myCode {
         System.out.println("MAYURIN SRITHONG");
         System.out.println("361211760039");
         System.out.println("MIT211");
+        System.out.println("MIND");
+
 
 
 
