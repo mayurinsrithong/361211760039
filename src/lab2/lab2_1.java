@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 public class lab2_1 {
     public static void main(String[] args) {
         int x,a,b,c,d,e,f,g,h,i;
-        BufferedReader reader = new BufferedReader()
+        BufferedReader reader = new BufferedReader();
         x = 10;
         System.out.println(x);
         int a;
@@ -40,14 +40,6 @@ public class lab2_1 {
         int n = 10;
         System.out.println(n);
         System.out.println(t/n);
-
-
-
-
-
-
-
-
 
 
 
