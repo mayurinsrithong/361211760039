@@ -7,11 +7,14 @@ public class Quiz_1 {
 
         for (int i = 500; i < 1000; i++) {
             //statement for
-            if (i % 3 == 0 || i % 6 == 0)
+            if (i % 3 == 0 || i % 6 == 0) {
                 count++;
-            total += i; //total =total +i;
-            System.out.println(i + " ");
+                total += i;
+                System.out.println(i + " ");
+            }
         }
+        System.out.println("The total value is "+total);
+        System.out.println("The average value is "+total/count);
 
 
 
