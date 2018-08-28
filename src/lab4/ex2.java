@@ -1,7 +1,7 @@
 
 package lab4;
 //get data as Integer 2 values from user
-//procass with method following:
+//procas with method following:
 //1.summation (+)
 //2.subtraction (-)
 //3.multiple (*)
