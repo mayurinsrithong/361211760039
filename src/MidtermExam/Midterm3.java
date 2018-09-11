@@ -4,32 +4,25 @@ import java.util.Scanner;
 
 public class Midterm3 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        String n, k;
+        int m, h;
+
+        System.out.println("อัตราโบนัสเงินเดือน");
+        System.out.println("ชั่วโมงสอนน้อยกว่ำ 12 ชั่วโมง ไม่ได้รับโบนัส");
+        System.out.println("ชั่วโมงสอน 12 - 16 ชั่วโมง ได้รับโบนัส 5% ของเงินเดือน");
+        System.out.println("ชั่วโมงสอน 17-20 ชั่วโมง ได้รับโบนัส 10% ของเงินเดือน");
+        System.out.println("ชั่วโมงสอน 21 ชั่วโมงเป็นต้นไป ได้รับโบนัส 15% ของเงินเดือน");
 
 
-        int testScore ;
-        //do-while
-        do {
-            System.out.print("ชื่ออาจารย์ : ");
-            String name = input.nextLine();
-            System.out.print("ชื่อคณะ : ");
-            int age = input.nextInt();
-            System.out.print("เงินเดื่อน : ");
-            testScore = input.nextInt();
-            System.out.print("กรุณาใส่ชั่วโมงที่สอน : ");
-            testScore = input.nextInt();
-        }while (testScore<0 || testScore>24);
-
-
-        if (testScore < 12)
-            System.out.println("ไม่ได้รับโบนัส");
-        else if (testScore < 16)
-            System.out.println("ได้รับโบนัส 5 %");
-        else if (testScore < 20)
-            System.out.println("ได้รับโบนัส 10 %");
-        else if (testScore < 24)
-            System.out.println("ได้รับโบนัส 15 %");
-
+        System.out.println("ชื่อ-สกุล:  ");
+        n = scanner.nextLine();
+        System.out.println("คณะ:  ");
+        k = scanner.nextLine();
+        System.out.println("เงินเดือน:  ");
+        m = scanner.nextInt();
+        System.out.println("ชั่วที่สอน:  ");
+        h = scanner.nextInt();
 
 
 
