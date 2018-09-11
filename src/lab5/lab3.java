@@ -8,7 +8,7 @@ public class lab3 {
         int[]num =new int [5]; //default =0
         System.out.print("Please, input integers to array.");
         //input
-        for ( int i = 1000; i< num.length;i++){
+        for ( int i = 100; i< num.length;i++){
             System.out.print("Enter integer"+(i+1)+":");
             num[i] = Scanner.nextInt();
         }
