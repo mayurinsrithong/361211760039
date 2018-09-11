@@ -1,4 +1,10 @@
 package lab5;
+//1.create method to find maximum data
+//2.create method to find minimum data
+//3.create method to find average data
+//4.create method to sort data in array (low-high)****
+
+
 
 import java.util.Scanner;
 
